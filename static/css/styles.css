@@ -1,0 +1,86 @@
+body {
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+#nav-barra{
+  background-color: #e3f2fd;
+  border-bottom: 1px solid lightgray;
+}
+
+#logo {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  border: 1px solid ;
+}
+
+#contenedor-externo{
+  border-radius: 3%;
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+#letra-titulo{
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  align-items: center;
+}
+
+
+/*dibujo del picometro IN (verde)*/
+#grap-pic {
+  border: 1px solid black;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5px;
+}
+
+.control span {
+  font-size: 0.7rem;
+  text-align: right;
+}
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+}
+
+.radio-group label input[type="radio"] {
+  margin-right: 2px;
+}
+#threshold-value{
+  left: 20%;
+  transform: translateX(-95%);
+}
+
+#compress-graph{
+  border: 1px solid black;
+  margin: 1%;
+  border-radius: 3%;
+  background-color: #e3f2fd;
+}
+
+#compress{
+  height:100;
+  width:100 ;
+}
